@@ -1,0 +1,54 @@
+{
+    "name": "elbgoods/laravel-sort-positions-validation",
+    "description": "",
+    "keywords": [
+        "elbgoods",
+        "laravel-sort-positions-validation"
+    ],
+    "homepage": "https://github.com/elbgoods",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Niclas Schirrmeister",
+            "email": "nschirrmeister@elbgoods.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "elbgoods/ci-test-tools": "^1.6",
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elbgoods\\LaravelSortPositionsValidation\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Elbgoods\\LaravelSortPositionsValidation\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Elbgoods\\LaravelSortPositionsValidation\\LaravelSortPositionsValidationServiceProvider"
+            ],
+            "aliases": {
+                "LaravelSortPositionsValidation": "Elbgoods\\LaravelSortPositionsValidation\\LaravelSortPositionsValidationFacade"
+            }
+        }
+    }
+}
