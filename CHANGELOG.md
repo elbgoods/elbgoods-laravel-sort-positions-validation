@@ -6,7 +6,7 @@ All notable changes to `laravel-sort-positions-validation` will be documented in
 
 - initial release
 
-## 1.0.0 - 2020-03-04
+## 1.0.1 - 2020-03-04
 
 - Remove alias from composer.json
 - Add CONTRIBUTING.md and SECURITY.md
