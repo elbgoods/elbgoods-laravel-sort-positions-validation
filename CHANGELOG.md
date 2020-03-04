@@ -14,3 +14,8 @@ All notable changes to `laravel-sort-positions-validation` will be documented in
 - Rename ServiceProvider
 - Fix Readme Headline
 - Change licence to Treeware
+
+## 1.0.2 - 2020-03-04
+- Fix Service Provider file name
+- Improove test command
+- Update dependencies
