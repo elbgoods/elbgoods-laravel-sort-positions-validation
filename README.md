@@ -7,7 +7,7 @@ This Package provides validation for correct sort position values for arrays.
 You can install the package via composer:
 
 ```bash
-composer require elbgoods/laravel-sort-positions-validation
+composer require elbgoods/laravel-sort-positions-rule
 ```
 
 if you want to adjust the error message translation you can add the translation files to your project:
