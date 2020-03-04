@@ -1,10 +1,10 @@
 <?php
 
-namespace Elbgoods\LaravelSortPositionsValidation;
+namespace Elbgoods\SortPositionsRule;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelSortPositionsValidationServiceProvider extends ServiceProvider
+class SortPositionsRuleServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Elbgoods\\LaravelSortPositionsValidation\\": "src"
+            "Elbgoods\\SortPositionsRule\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Elbgoods\\LaravelSortPositionsValidation\\Tests\\": "tests"
+            "Elbgoods\\SortPositionsRule\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,11 +44,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Elbgoods\\LaravelSortPositionsValidation\\LaravelSortPositionsValidationServiceProvider"
-            ],
-            "aliases": {
-                "LaravelSortPositionsValidation": "Elbgoods\\LaravelSortPositionsValidation\\LaravelSortPositionsValidationFacade"
-            }
+                "Elbgoods\\SortPositionsRule\\SortPositionsRuleServiceProvider"
+            ]
         }
     }
 }

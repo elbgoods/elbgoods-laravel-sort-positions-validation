@@ -1,9 +1,9 @@
 <?php
 
-namespace Elbgoods\LaravelSortPositionsValidation\Tests\Rules;
+namespace Elbgoods\SortPositionsRule\Tests\Rules;
 
-use Elbgoods\LaravelSortPositionsValidation\Rules\SortPositionsRule;
-use Elbgoods\LaravelSortPositionsValidation\Tests\TestCase;
+use Elbgoods\SortPositionsRule\Rules\SortPositionsRule;
+use Elbgoods\SortPositionsRule\Tests\TestCase;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;
 

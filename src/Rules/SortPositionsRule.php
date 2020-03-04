@@ -1,6 +1,6 @@
 <?php
 
-namespace Elbgoods\LaravelSortPositionsValidation\Rules;
+namespace Elbgoods\SortPositionsRule\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Facades\Lang;

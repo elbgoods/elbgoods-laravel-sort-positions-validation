@@ -1,14 +1,14 @@
 <?php
 
-namespace Elbgoods\LaravelSortPositionsValidation\Tests;
+namespace Elbgoods\SortPositionsRule\Tests;
 
-use Elbgoods\LaravelSortPositionsValidation\LaravelSortPositionsValidationServiceProvider;
+use Elbgoods\SortPositionsRule\SortPositionsRuleServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase
 {
     protected function getPackageProviders($app)
     {
-        return [LaravelSortPositionsValidationServiceProvider::class];
+        return [SortPositionsRuleServiceProvider::class];
     }
 }
