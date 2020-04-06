@@ -2,9 +2,15 @@
 
 All notable changes to `laravel-sort-positions-validation` will be documented in this file
 
-## 0.1.0 - 2020-02-28
+## 1.1.0 - 2020-04-06
 
-- initial release
+- add Laravel 7 support
+
+## 1.0.2 - 2020-03-04
+
+- Fix Service Provider file name
+- Improove test command
+- Update dependencies
 
 ## 1.0.1 - 2020-03-04
 
@@ -15,7 +21,6 @@ All notable changes to `laravel-sort-positions-validation` will be documented in
 - Fix Readme Headline
 - Change licence to Treeware
 
-## 1.0.2 - 2020-03-04
-- Fix Service Provider file name
-- Improove test command
-- Update dependencies
+## 0.1.0 - 2020-02-28
+
+- initial release
