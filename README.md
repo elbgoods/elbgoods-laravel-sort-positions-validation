@@ -59,10 +59,10 @@ composer test
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-
 ## Credits
 
 - [Niclas Schirrmeister](https://github.com/eisfeuer)
+- [Tom Witkowski](https://github.com/Gummibeer)
 - [All Contributors](../../contributors)
 
 ## License

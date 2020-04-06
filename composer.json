@@ -13,16 +13,22 @@
             "name": "Niclas Schirrmeister",
             "email": "nschirrmeister@elbgoods.de",
             "role": "Developer"
+        },
+        {
+            "name": "Tom Witkowski",
+            "email": "dev.gummibeer@gmail.com",
+            "homepage": "https://gummibeer.de",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.4",
-        "illuminate/support": "^6.0"
+        "illuminate/support": "^6.0|^7.0"
     },
     "require-dev": {
-        "elbgoods/ci-test-tools": "^1.6",
-        "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^8.0"
+        "bamarni/composer-bin-plugin": "^1.3",
+        "orchestra/testbench": "^4.0|^5.0",
+        "phpunit/phpunit": "^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
@@ -38,13 +44,20 @@
         "test": [
             "vendor/bin/phpunit",
             "vendor/bin/php-cs-test",
-            "vendor/bin/php-tlint-test .",
+            "vendor/bin/php-tlint-test ./src",
             "vendor/bin/php-md-test ./src",
             "vendor/bin/php-insights-test",
-            "vendor/bin/php-mn-test",
+            "vendor/bin/php-mn-test ./src",
             "vendor/bin/php-stan-test"
         ],
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "post-install-cmd": [
+            "@composer bin all install --ansi"
+        ],
+        "post-update-cmd": [
+            "@composer bin all update --ansi"
+        ],
+        "bin": "echo 'bin not installed'"
     },
     "config": {
         "sort-packages": true
